@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .back {
+        width: 600px;
+        height: 500px;
+        background-color: rgb(243, 165, 20);
+        position: relative;
+      }
+      .pic1,
+      .pic2,
+      .pic3,
+      .pic4 {
+        width: 250px;
+        height: 200px;
+        background-size: cover;
+        position: absolute;
+        border-radius: 30%;
+      }
+      .pic1 {
+        background-image: url("./tiger.jpg");
+        top: 30px;
+        left: 30px;
+      }
+      .pic2 {
+        background-image: url("./castle.jpg");
+        top: 30px;
+        right: 30px;
+      }
+      .pic3 {
+        background-image: url("./glass.jpg");
+        right: 30px;
+        bottom: 30px;
+      }
+      .pic4 {
+        background-image: url("./hearts.jpg");
+        bottom: 30px;
+        left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="back">
+      <div class="pic1"></div>
+      <div class="pic2"></div>
+      <div class="pic3"></div>
+      <div class="pic4"></div>
+    </div>
+  </body>
+</html>
